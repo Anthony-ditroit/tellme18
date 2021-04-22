@@ -1,0 +1,14 @@
+#video-grid{
+   display: flex;
+   height: 90vh;
+   justify-content: center;
+   flex-wrap: wrap;
+   background: rgba(0, 0, 0, 0.884);
+   color: #fff;
+}
+video{
+   height: 300px;
+   width: 400px;
+   object-fit: cover;
+   padding: 8px;
+}

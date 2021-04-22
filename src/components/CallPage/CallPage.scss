@@ -1,0 +1,12 @@
+.callpage-container {
+    .video-grid{
+      height: 50vh;
+      width: 50%;
+      display: grid;
+      object-fit: cover; // use "cover" to avoid distortion
+      position: absolute;
+      z-index: -1;
+      background: transparent;
+     
+    }
+  }
